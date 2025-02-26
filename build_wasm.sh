@@ -16,6 +16,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/E
     -DCMAKE_C_FLAGS="-frtti -fexceptions -s WASM=1 -s USE_PTHREADS=0" \
     -DCMAKE_CXX_FLAGS="-frtti -fexceptions -s WASM=1 -s USE_PTHREADS=0" \
     `cat ../options.txt` -DBUILD_opencv_world=OFF -DOPENCV_DISABLE_FILESYSTEM_SUPPORT=ON ..
-
+make -j4
+make install
 
 cd ..
