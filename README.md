@@ -1,5 +1,5 @@
 # opencv-mobile (with calib3D support)
-**This repo is aiming at building a opencv-mobile lib with calib3d support, please see build_linux.sh and build_wasm.sh for more details**
+**This repo is aiming at building a opencv-mobile lib with module calib3d, please see build_linux.sh and build_wasm.sh for more details**
 
 
 |opencv mobile 4.10.0 package size|opencv-mobile 4.10.0|opencv-mobile 4.10.0 with calib3d|
