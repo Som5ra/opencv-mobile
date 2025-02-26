@@ -1,4 +1,4 @@
-# opencv-mobile (with calib support)
+# opencv-mobile (with calib3D support)
 **This repo is aiming at building a opencv-mobile lib with calib support, please see build_linux.sh and build_wasm.sh for more details**
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)
