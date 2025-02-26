@@ -2,10 +2,10 @@
 **This repo is aiming at building a opencv-mobile lib with calib support, please see build_linux.sh and build_wasm.sh for more details**
 
 
-|opencv mobile 4.10.0 package size|opencv-mobile 4.10.0|opencv-mobile 4.10.0 calib3d|
+|opencv mobile 4.10.0 package size|opencv-mobile 4.10.0|opencv-mobile 4.10.0 with calib3d|
 |:-:|:-:|:-:|
-|wasm with -frtti -fexceptions|9.8 MB|12.5 MB + calib3d: 3.7 MB + flann: 1.0 MB|
-|linux|26.9 MB|27.0 MB + calib3d: 5.7 MB + flann: 1.4 MB|
+|wasm with **-frtti -fexceptions**|9.8 MB|12.5 MB + calib3d: 3.7 MB + flann: 1.0 MB|
+|linux ubuntu2204|26.9 MB|27.0 MB + calib3d: 5.7 MB + flann: 1.4 MB|
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)
 ![build](https://img.shields.io/github/actions/workflow/status/nihui/opencv-mobile/release.yml?style=for-the-badge)
